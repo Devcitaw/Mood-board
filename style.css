@@ -1,0 +1,98 @@
+/* caja principal */
+
+main {
+  width: 798px;
+  height: 1199px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* la imagen que flota */
+
+#logo {
+  width: 298px;
+  height: 367px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+/* Hasta acá todo muy lindo pero no puedo centrar todo el contenido porque sino la imagen queda muy rara */
+
+/* Espacio entre las cajas */
+
+div > div {
+  margin: 10px;
+}
+
+.bloque {
+  display: flex;
+  flex-direction: column;
+}
+
+/* SIEMPRE las imágenes con esto: */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* tamaño de cada cajita */
+
+#arbol {
+  width: 240px;
+  height: 360px;
+}
+
+#flor {
+  width: 240px;
+  height: 480px;
+}
+
+#cielo {
+  width: 240px;
+  height: 280px;
+}
+
+#te {
+  width: 320px;
+  height: 360px;
+}
+
+#nieve {
+  width: 320px;
+  height: 280px;
+}
+
+#lampara {
+  width: 320px;
+  height: 480px;
+}
+
+.color {
+  width: 155px;
+  height: 215px;
+}
+
+/* Colores de las cajitas con colores */
+
+#negro {
+  background-color: #2f3133;
+}
+
+#azul {
+  background-color: #0361ad;
+}
+
+#celeste {
+  background-color: #9fb5c1;
+}
+
+#durazno {
+  background-color: #f8c694;
+}
+
+#purpura {
+  background-color: #822d55;
+}
